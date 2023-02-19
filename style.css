@@ -7,6 +7,20 @@
     text-decoration: none;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: crimson;
+    border-radius: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background-color: #eee;
+    border-radius: 10px;
+}
+
 section {
     padding: 100px 0;
 }
